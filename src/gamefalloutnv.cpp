@@ -250,7 +250,10 @@ QString GameFalloutNV::steamAPPId() const
 
 QStringList GameFalloutNV::primaryPlugins() const
 {
-  return {"falloutnv.esm"};
+  return {"FalloutNV.esm",     "DeadMoney.esm",     "HonestHearts.esm",
+          "OldWorldBlues.esm", "LonesomeRoad.esm",  "GunRunnersArsenal.esm",
+          "ClassicPack.esm",   "MercenaryPack.esm", "TribalPack.esm",
+          "CaravanPack.esm"};
 }
 
 QStringList GameFalloutNV::gameVariants() const
